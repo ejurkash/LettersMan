@@ -5,3 +5,5 @@ random_letter <- function(vec = letter){
   random <- sample(letter, 1)
   return(random)
 }
+
+random_letter()
